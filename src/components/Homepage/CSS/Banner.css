@@ -1,0 +1,44 @@
+.img-fluid{
+    height: 900px;
+    width: 1900px;
+    object-fit: fill;
+}
+.img1-fluid{
+    height: 900px;
+    width: 1900px;
+    object-fit: fill !important;
+}
+.img2-fluid{
+    height: 900px;
+    width: 1900px;
+    object-fit: fill;
+}
+input[type = "text"]{
+    margin-top: 15px;
+    height: 55px;
+    width: 600px;
+    background-color: transparent;
+    border-color: rgb(238, 204, 12);
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.img4-fluid{
+    height: 50px;
+}
+.container{
+    border: 2px;
+    border-color: aqua;
+}
+.btn{
+    padding-bottom: 6px;
+    margin-left: -130px;
+}
+@media(max-width){
+    #carouselExampleInterval{
+        height: 200px !important;
+    }
+}
+
+
+
