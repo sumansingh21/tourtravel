@@ -1,0 +1,23 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.topNav{
+    width: 100%;
+    height: 25px;
+    background-color: #ffff;
+}
+
+.navParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .navItem2{
+    display: flex;
+    justify-self: flex-end;
+} */
+
+
