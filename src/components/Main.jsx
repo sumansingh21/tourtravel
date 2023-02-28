@@ -11,10 +11,10 @@ const Main= () =>{
            <Menu/>
            <Banner/>
            <CardsHeader/>
-           <Cards/>
-           <Cards/>
-           <Cards/>
-           <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
         </>
     )
 }
