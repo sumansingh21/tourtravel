@@ -1,9 +1,17 @@
 .img-fluid{
-    height: 900px;
-    width: 1900px;
-    object-fit: fill;
+    height: 300px!important;
+    width: 100%!important;
+    /* object-fit: fill; */
 }
-.img1-fluid{
+
+.carousel-control-next-icon{
+    display: none;
+}
+
+.carousel-control-prev-icon{
+    display: none;
+}
+/* .img1-fluid{
     height: 900px;
     width: 1900px;
     object-fit: fill !important;
@@ -12,7 +20,9 @@
     height: 900px;
     width: 1900px;
     object-fit: fill;
-}
+} */
+
+
 input[type = "text"]{
     margin-top: 15px;
     height: 55px;
