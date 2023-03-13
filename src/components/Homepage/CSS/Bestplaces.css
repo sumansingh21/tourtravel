@@ -1,0 +1,33 @@
+.containerChild{
+    height: 200px;
+    background-image: url('../Media/indiagate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+ }
+ 
+ .subChildOne{
+     width: 100%;
+     height: 30px;
+     background-color: white;
+     padding-bottom: 10px;
+     opacity: 0.5;
+ }
+
+ .card1-title{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.bestsplaces-text{
+    text-align: center;
+    font-size: xxx-large;
+    font-style: italic;
+}
+
+.bestplaces-subtext{
+    font-size: large!important;
+}

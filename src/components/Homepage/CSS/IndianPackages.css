@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.indiacard-heading{
+    margin-left: 1.5%;
+}
+.indiacard-details{
+    margin-left: 1.5%;
+}
+.row{
+    margin: 0.5%;
+}
+
+.indiacard-heading{
+    font-size: xxx-large;
+}
+
+.indiacard-details{
+    font-size: large;
+}
+/* .card-body{
+    background-color:  #0081B4;;
+    color: white;
+} */
+/* .row img{
+    opacity: 0.5;
+} */

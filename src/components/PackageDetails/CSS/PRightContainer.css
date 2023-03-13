@@ -1,0 +1,90 @@
+
+.Right-container{
+    background-color: rgb(240, 239, 238);
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    /* height: 100vh; */
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.Form-head1{
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #e36302;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.Form-head2{
+    background-color: rgb(0, 100, 232);
+    color: aliceblue;
+    text-align: center;
+}
+.Form-head3{
+    text-align: center;
+    font-size: 15px;
+    color: #e36302;
+}
+.PDropdown1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.PDropdown2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.PDropdown3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.PDropdown4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.PDropdown5{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.PDropdown6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.FName{
+    margin-bottom: 10px;
+}
+.FEmail{
+    margin-bottom: 10px;
+}
+
+.PSubmitButton{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    /* background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%); */
+}
+.Pbutton1 {
+    background:linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+    text-align: center;
+    border: none;
+    height: 35px;
+    width:60%;
+    color: aliceblue;
+    border-radius: 5px;
+   
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+} 
+.Footer{
+    margin-left: 5px;
+    align-self: baseline;
+}

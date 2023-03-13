@@ -1,4 +1,4 @@
-.row1{
+/* .row1{
     text-align: center;
     color: aqua;
 }
@@ -52,3 +52,11 @@ button[type ="button"]{
     height: 60px;
     width:50px;
 }
+
+.footer-parent{
+    margin-top: 10px;
+} */
+
+.footerStyle{
+    background-color: rgba(0, 0, 0, 0.2);
+}   

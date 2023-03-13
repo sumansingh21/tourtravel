@@ -1,0 +1,23 @@
+
+.thirdParent{
+    height: auto;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.cardOne{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardChild{
+    height: 200px;
+}
+
+.planText{
+    font-size: 30px;
+    color: rgb(22, 79, 158);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

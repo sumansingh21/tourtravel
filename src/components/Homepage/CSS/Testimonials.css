@@ -1,0 +1,56 @@
+
+.testi-container {
+    height: 300px !important;
+    ;
+    width: 100%;
+    background-color: #ffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.testi-card {
+    height: 250px;
+    background-color: #ffff;
+    display: grid;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}    
+
+.testi-text {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+ 
+}
+
+.testi-image {
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-top: 10px
+
+}
+
+.testi-child-one {
+    height: 100%;
+    width: 100%;
+    background-color: #ffff;
+    display: grid;
+}
+
+.testi-name{
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+}
+
+.testi-child-two{
+    height: 30%;
+    width: 100%;
+    /* background-color: #ECF2FF; */
+    color: black;
+    position: relative;
+    text-align: center;
+}
+

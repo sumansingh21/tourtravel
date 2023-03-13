@@ -1,7 +1,7 @@
-.img-fluid{
+/* .img-fluid{
     height: 300px!important;
     width: 100%!important;
-    /* object-fit: fill; */
+    object-fit: fill;
 }
 
 .carousel-control-next-icon{
@@ -10,7 +10,7 @@
 
 .carousel-control-prev-icon{
     display: none;
-}
+} */
 /* .img1-fluid{
     height: 900px;
     width: 1900px;
@@ -22,7 +22,7 @@
     object-fit: fill;
 } */
 
-
+/* 
 input[type = "text"]{
     margin-top: 15px;
     height: 55px;
@@ -32,8 +32,12 @@ input[type = "text"]{
     border-radius: 25px;
     padding-left: 15px;
     padding-right: 15px;
-}
-.img4-fluid{
+} */
+
+/* -------------------------------------------------- */
+
+
+/* .img4-fluid{
     height: 50px;
 }
 .container{
@@ -48,7 +52,64 @@ input[type = "text"]{
     #carouselExampleInterval{
         height: 200px !important;
     }
+} */
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bannerParent{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../Media/Hill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* opacity:0.2%; */
 }
 
+.bannerChild{
+    width: 40%;
+    height: 215px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    left: 50px;
+}
+
+.HeadOne{
+    font-size: 3rem;
+    color: #ffff;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+}
+
+.BannerSubhead{
+    font-size: 20px;
+    color: #ffff;
+    text-align:end!important;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+
+@media screen and(max-width:900px){
+    .HeadOne{
+        font-size: 1.5rem !important;
+    }
+
+    .BannerSubhead{
+        font-size: 5px;
+    }
+    
+}
 
 
