@@ -33,9 +33,13 @@
     text-align: center;
     font-size: xxx-large;
     font-style: italic;
+    /* font-style: italic; */
+
 }
 
 .blog-subtext{
    font-size: large;
    font-style: italic;
+      /* font-style: italic; */
+
 }
