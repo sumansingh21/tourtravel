@@ -1,0 +1,46 @@
+.Heading {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+.card1-title{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+/* .card{
+    text-align:justify;
+    margin-top: 5px;
+    border-radius: 20px;
+    
+} */
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.opacity-remover{
+    opacity: 1!important;
+}
+
+.blog-text {
+    text-align: center;
+    font-size: xxx-large;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.blog-subtext{
+   font-size: large;
+   font-style: italic;
+}
+
+.readmoreBtn{
+    text-decoration: none !important;
+}

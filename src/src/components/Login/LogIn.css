@@ -1,0 +1,122 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.background{
+    height:100vh;
+    width: 100%;
+    background-image: url("./Media/banner1.jpg");
+    background-size: cover;
+    /* display: flex; */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+/* --------------------------- */
+.LogInContainer {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-header span1 {
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+    justify-content: center;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+header{
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.LogIn-field{
+    /* display: flex; */
+    flex-direction: column;
+    padding-bottom: 25px;
+    justify-content: center;
+    
+}
+
+.LInput {
+    height: 40px;
+    width: 100%;
+    border: none;
+    padding-left: 35px;
+    outline: none;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.3);
+    text-align: left;
+    color: rgb(246, 248, 249);
+}
+
+i{
+/* position: relative; */
+margin-right: -19px;
+color: aliceblue;
+padding-right: -5px;
+}
+/* ---------------------------------------- */
+ ::-webkit-input-placeholder{
+    color: aliceblue;
+ }
+ /* ------------------------------------------- */
+.LSubmit{
+   
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+    background:rgba(255,255,255,0.5) ;
+    transition: .3s;
+}
+.LSubmit:hover{
+    box-shadow: 1px 7px 7px 1px rgba(0,0,0,0.5);
+}
+
+.LInput:hover{
+    box-shadow: 1px 7px 7px 1px rgba(0,0,0,0.5);
+}
+/* ------------------------------------- */
+.LBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 17px;
+}
+.BLeft{
+    /* display: flex; */
+}
+check{
+    padding-right: 5px;
+}
+label a{
+    color: rgb(255, 255, 255);
+}
+.Buttom-header{
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,304 @@
+.LeftContainer-body1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    /* height: 100vh; */
+}
+.ParentDiv{
+    /* border:2px solid red; */
+    /* height: 360vh; */
+}
+
+
+.LeftContainer-child{
+    margin-bottom:7px;
+}
+.icon1 {
+    /* height: 10px;
+    width: 15px; */
+    margin-left: 5px;
+    color: rgb(240, 131, 72);
+}
+/* .LeftContainer-child h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+
+} */
+/* .imgg{
+    height: 350px;
+} */
+.MainHeading {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.LeftContainer-child p1 {
+    font-size: 19px;
+    font-family: serif;
+    color: rgb(240, 131, 72);
+
+}
+
+.LeftContainer-child p2 {
+    font-size: 19px;
+    font-family: serif;
+   
+}
+
+/* .card-img-top {
+    border-radius: 10px;
+} */
+/* ------------------------- */
+.PNavbar{
+margin-top: 5px;
+}
+
+/* .PNavbar1 NavLink{
+    padding-left: 5px;
+    padding-left: 5px;
+} */
+.Nav{
+    padding-left: 5px;
+    padding-left: 5px;
+    /* color: #860909; */
+}
+/* .nav-link{
+    color: #860909;
+} */
+/* ------------------------------------------------------- */
+.Overview {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: justify;
+}
+
+.Overview p1 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+/* .Overview hr {
+    color: #e36302;
+} */
+
+.icon2 {
+    color: rgb(54, 212, 1);
+}
+
+.Overview p2 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.Overview p3 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.Overview p4 {
+    font-size: 24px;
+    font-family: serif;
+}
+
+.Overview p5 {
+    font-size: 24px;
+    font-family: serif;
+}
+
+.Overview p6 {
+    font-size: 24px;
+    font-family: serif;
+}
+
+/* ---------------------------------------------------- */
+
+.Parent {
+    width: 100%;
+    /* min-height: 100vh; */
+    /* background-color: aquamarine; */
+}
+
+/* .main {
+    height: 100% !important;
+} */
+
+.Right-container {
+    background-color: rgb(240, 239, 238);
+    margin-top: 5px;
+    /* margin-left: 5px; */
+    width: 50%;
+    float: right;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Form-head1 {
+    margin-top: 30px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #e36302;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.Form-head2 {
+    background-color: rgb(0, 100, 232);
+    color: aliceblue;
+    text-align: center;
+}
+
+.Form-head3 {
+    text-align: center;
+    font-size: 15px;
+    color: #e36302;
+}
+
+.PCount2 label {
+    padding-left: 4px;
+}
+
+.PCount1 label {
+    padding-left: 4px;
+}
+
+.PDropdown1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PDropdown2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PDropdown3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PDropdown4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PDropdown5 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.PDropdown6 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.FName {
+    margin-bottom: 10px;
+}
+
+.FEmail {
+    margin-bottom: 10px;
+}
+
+.PSubmitButton {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 10px;
+    /* background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%); */
+}
+
+.Pbutton1 {
+    background: linear-gradient(45deg, rgba(59, 173, 227, 1) 0%, rgba(87, 111, 230, 1) 25%, rgba(152, 68, 183, 1) 51%, rgba(255, 53, 127, 1) 100%);
+    text-align: center;
+    border: none;
+    height: 35px;
+    width: 60%;
+    color: aliceblue;
+    border-radius: 5px;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Footer {
+    margin-top: auto;
+    align-self: baseline;
+}
+
+
+
+/* @media screen and (max-width:2840px) {
+    .ParentDiv {
+        height: auto !important;
+    }
+}  */
+/* 
+@media screen and (max-width:2560px) {
+    .ParentDiv {
+        height: 128vh;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .ParentDiv {
+        height: 255vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .ParentDiv {
+        height: 303vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .ParentDiv {
+        height: 375vh;
+    }
+}
+@media screen and (max-width:425px) {
+    .ParentDiv {
+        height: 641vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ParentDiv {
+        height: 894vh;
+    }
+}*/
+
+
+/* --------------------------------------------------------  */
+.Left-container {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+
+ /* ---------------------------------  */
+/* @media screen and (max-width:425px) {
+    .Overview p1{
+        font-size: 25px;
+    }
+    .Overview p2{
+        font-size: 25px;
+    }
+    .Overview p3{
+        font-size: 25px;
+    }
+    
+} */
+/* @media screen and (max-width:320px) {
+    .body1 p {
+        font-size: 25px;
+        font-family: serif;
+    }
+} */

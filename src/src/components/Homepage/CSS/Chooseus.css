@@ -1,0 +1,39 @@
+
+.thirdParent{
+    height: auto;
+    width: 100%;
+    background-color: #8197c5;
+}
+
+.cardOne{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardChild{
+    height: 100px;
+}
+
+.planText{
+    font-size: xxx-large;
+    color: #fefefe;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.CItext{
+    color: #fefefe;
+}
+
+.plan-subtext{
+    font-size: large;
+}
+
+@media screen and (max-width:320px){
+    .ch-res-hig{
+        margin-top: 30px !important;
+    }
+}

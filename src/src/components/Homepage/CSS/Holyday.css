@@ -1,0 +1,96 @@
+.holiday-parent {
+    width: 100%;
+    height: auto !important;
+    background-color:#8197c5;
+    /* background-image: url('../Media/theme2.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    opacity: 1;
+}
+
+.holiday-text {
+    text-align: center;
+    font-size: xxx-large !important;
+    font-style: italic;
+    color: white;
+}
+
+
+.holiday-subtext{
+    font-size: large !important;
+    color: #fff;
+}
+
+.holiday-details{
+   height: 90px;
+   background-color: #fff;
+   display: grid;
+   padding: 0px;
+   /* align-items: center; */
+}
+
+/* .themeParent{
+    display: grid;
+    width: 100%;
+} */
+/* 
+.card-child-image{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-self: center;
+    background-image:url('/public/andaman.jpg');
+    background-size:cover ;
+}     */
+
+/* .holidayText{
+   font-size: xxx-large;
+} */
+
+
+.child{
+    height:100px;
+    width:100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.childImage{
+   display: block;
+   height: 70px;
+   width:80%;
+   /* border: 1px solid blue; */
+   margin-left: 9px;
+   /* background-image: url('../Media/andaman.jpg');
+   background-size: cover; */
+   margin-top:5px;
+}
+
+.childText{
+   text-align:center;
+}
+
+.H-img-adg{
+    height: 70px;
+    width: 100%;
+}
+
+@media screen and (max-width:320px){
+    .childImage{
+        margin-left: 23px !important;
+    }
+
+    .child{
+        margin-top:10px !important;
+    }
+
+    /* .holiday-text {
+        font-size: 6vw !important;
+    }
+
+    .holiday-subtext{
+        font-size: 4vw !important;
+    } */
+}

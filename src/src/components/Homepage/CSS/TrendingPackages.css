@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+}
+.cards-header{
+    margin-left: 1.5%;
+}
+.cards-header p{
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.2;
+}
+.row{
+    margin: 0.5%;
+}
+
+.trending-text {
+    text-align: center;
+    font-size: xxx-large;
+    font-style: italic;
+}
+
+.trending-subtext{
+    font-size: large !important;
+}
+
+.card-text{
+    margin-bottom: 5px;
+}

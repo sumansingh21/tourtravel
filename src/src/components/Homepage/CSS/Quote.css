@@ -1,0 +1,37 @@
+
+.secondParent{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-image:url('../Media/desert.jpg');
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteParent{
+    display: grid !important;
+}
+
+.quoteText{
+    font-size: 5vw;
+    color: #ffff;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    display: inline-block;
+}
+
+.quoteSubText{
+    font-size: 1.5vw;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    display: flex;
+    justify-self: flex-end;
+}
+
