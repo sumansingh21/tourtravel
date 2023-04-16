@@ -1,0 +1,138 @@
+/* .img-fluid{
+    height: 300px!important;
+    width: 100%!important;
+    object-fit: fill;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
+
+.carousel-control-prev-icon{
+    display: none;
+} */
+/* .img1-fluid{
+    height: 900px;
+    width: 1900px;
+    object-fit: fill !important;
+}
+.img2-fluid{
+    height: 900px;
+    width: 1900px;
+    object-fit: fill;
+} */
+
+/* 
+input[type = "text"]{
+    margin-top: 15px;
+    height: 55px;
+    width: 600px;
+    background-color: transparent;
+    border-color: rgb(238, 204, 12);
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+/* -------------------------------------------------- */
+
+
+/* .img4-fluid{
+    height: 50px;
+}
+.container{
+    border: 2px;
+    border-color: aqua;
+}
+.btn{
+    padding-bottom: 6px;
+    margin-left: -130px;
+}
+@media(max-width){
+    #carouselExampleInterval{
+        height: 200px !important;
+    }
+} */
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bannerParent{
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../Media/Hill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1 !important;
+    /* opacity:0.2%; */
+}
+
+.bannerChild{
+    width: 40%;
+    height: 215px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    left: 50px;
+}
+
+.HeadOne{
+    font-size: 3rem;
+    color: #ffff;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+}
+
+.BannerSubhead{
+    font-size: 20px;
+    color: #ffff;
+    text-align:end!important;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+
+@media screen and (max-width: 1024px){
+    
+    .HeadOne{
+        font-size: 2rem;
+    }
+
+    .BannerSubhead{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .HeadOne{
+        font-size: 1.5rem;
+    }
+
+    .BannerSubhead{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+    .HeadOne{
+        margin-top: 90px !important;
+    }
+
+    .BannerSubhead{
+        font-size: 9px;
+    }
+}

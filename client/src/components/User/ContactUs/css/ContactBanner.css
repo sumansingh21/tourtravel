@@ -1,0 +1,18 @@
+/* .contact_banner{
+    position: relative;
+} */
+
+.contact_banner_img{
+    height: 500px!important;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.contact_banner_text{
+    position: absolute;
+    bottom:10%;
+    left:10%;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    border-bottom: 2px solid white;
+}

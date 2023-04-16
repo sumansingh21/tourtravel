@@ -1,0 +1,12 @@
+.formBackground{
+    background-color: rgb(205, 217, 227) !important;
+}
+
+.AddAdminBtnPArent{
+  display: grid;
+}
+
+.addadminbtn{
+   justify-self: center;
+   margin-bottom: 10px;
+}

@@ -1,0 +1,87 @@
+.header-left-icon i{
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.header-left-icon span{
+    color: #fff;
+    padding-left: 15px;
+}
+.header-right-icon{
+    display: block;
+    float: right;
+    padding-top: 5px;
+}
+.header-right-icon table tr td{
+    border: none;
+}
+.header-right-icon table tr td input[type="search"]{
+    border-radius: 10px;
+}
+#td{
+    position: absolute;
+    margin-left: -50px;
+    padding-top: 20px;
+}
+.haeder-right-sec-icon i{
+    color: #fff;
+    margin-left: 10px;
+    padding-top: 26px;
+}
+.card1{
+    height: 120px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.card1 .card1-left{
+    height: 120px;
+    width: 70%;
+    float: left;
+}
+.card1 .card1-left .card1-title{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 20px 10px 5px 20px;
+}
+.card1 .card1-left .card1-num{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: gray;
+    padding: 0px 10px 5px 20px;
+}
+.card1 .card1-left span{
+    display: block;
+    padding: 0px 0px 0px 20px;
+    font-size: 13px;
+    color: #000;
+}
+.card1 .card1-right{
+    height: 120px;
+    width: 30%;
+    float: left;
+}
+.card1 .card1-right i{
+    font-size: 20px;
+    margin: 40px 10px 10px 13px;
+    padding: 15px 17px;
+    color: #fff;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(117,2,37,0.9809173669467787) 0%, rgba(236,54,18,0.9837184873949579) 53%);
+}
+
+/* chart section start here */
+.chart-area{
+    height: 400px;
+    background-color: #fff;
+    margin-top: -70px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chart-area h6{
+    padding: 15px 10px 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
